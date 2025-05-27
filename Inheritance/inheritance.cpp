@@ -18,3 +18,7 @@ class orang {
                 return a + b;
             }
 };
+
+class pelajar : public orang {
+    public:
+};
