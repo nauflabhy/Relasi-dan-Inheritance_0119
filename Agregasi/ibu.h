@@ -1,5 +1,10 @@
+#include <iostream>
+#include <vector>
+#include "anak.h"
+#include <string>
 #ifndef IBU_H
 #define IBU_H
+using namespace std;
 
 class ibu {
     public:
@@ -17,6 +22,7 @@ class ibu {
        void tambahAnak(anak*);
        void cetakAnak();
 };
+
 void ibu::cetakAnak() {
     cout << "Daftar Anak dari Ibu \"" <<
     this->nama << "\":\n";
@@ -25,3 +31,4 @@ void ibu::cetakAnak() {
     }
     cout << endl;
 }
+#endif
