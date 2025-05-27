@@ -17,4 +17,11 @@ class pasien{
             << "\" tidak ada\n";
         }
 
+        void tambahDokter(dokter*);
+        void cetakDokter();
+
+};
+
+class dokter {
+    public:
 };
